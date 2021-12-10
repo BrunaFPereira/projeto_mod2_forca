@@ -1,4 +1,40 @@
+import baseDeDados
 
+#============================= Word Checker  ==============================================================
+resposta = input('Digite a resposta: ')
+if baseDeDados.Base_programacao['cobra'].find(resposta) != -1:
+    print('acertou')
+elif baseDeDados.Base_programacao['marcacao de hipertexto'].find(resposta) != -1:
+    print('acertou')
+elif baseDeDados.Base_programacao['estilo em cascata'].find(resposta) != -1:
+    print('acertou')
+elif baseDeDados.Base_programacao['programador completo'].find(resposta) != -1:
+    print('acertou')
+elif baseDeDados.Base_programacao['engrenagem de paginas web'].find(resposta) != -1:
+    print('acertou')
+else:
+    print('errou!')
+
+
+print("teste")
+
+
+resposta = input('Digite a resposta: ')
+if baseDeDados.Base_pilares_inteligencia_e['habilidade de reconhecer suas proprias emocoes'].find(resposta) != -1:
+     print('acertou')
+elif baseDeDados.Base_pilares_inteligencia_e['habilidade controlar e redirecionar impulsos'].find(resposta) != -1:
+     print('acertou')
+elif baseDeDados.Base_pilares_inteligencia_e['habilidade de se manter motivado'].find(resposta) != -1:
+     print('acertou')
+elif baseDeDados.Base_pilares_inteligencia_e['habilidade de reconhecer e entender emocoes dos outros'].find(resposta) != -1:
+     print('acertou')
+elif baseDeDados.Base_pilares_inteligencia_e['habilidade desenvolver relacionamentos interpessoais'].find(resposta) != -1:
+     print('acertou')
+else:
+    print('errou')
+
+
+#============================= Word Checker ==============================================================
 
 def jogar():
     print('=====' *10)
