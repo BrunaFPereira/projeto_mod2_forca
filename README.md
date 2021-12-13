@@ -19,8 +19,14 @@ no exemplo abaixo vc pode ver um jogo da forca que a palavra secreta era abacaxi
 
 ## Explicando o codigo
 
-game_da_forca.py <https://github.com/BrunaFPereira/projeto_mod2_forca/blob/main/game_da_forca.py>
-baseDeDados <https://github.com/BrunaFPereira/projeto_mod2_forca/blob/main/baseDeDados.py>
+[game_da_forca.py] <https://github.com/BrunaFPereira/projeto_mod2_forca/blob/main/game_da_forca.py>
+
+
+*funçao multiplayer* = possibilidade a criação de multiplos jogadores 
+
+[baseDeDados] <https://github.com/BrunaFPereira/projeto_mod2_forca/blob/main/baseDeDados.py>
+
+
 
 
 
