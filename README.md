@@ -1,4 +1,4 @@
-# Projeto de encerramento do módulo 2: Jogo da forca 
+# Projeto de encerramento do módulo 2: Jogo da Forca 
 
 
 ## Participantes
@@ -13,4 +13,14 @@ O jogo da força é um jogo em que o jogador tem que acertar qual é a palavra p
 no exemplo abaixo vc pode ver um jogo da forca que a palavra secreta era abacaxi e o jogador errou 3 vezes 
 
 ![alt text](https://t2.uc.ltmcdn.com/pt/images/7/3/3/palavras_para_forca_29337_600.jpg)
+
+
+
+
+## Explicando o codigo
+
+game_da_forca.py <https://github.com/BrunaFPereira/projeto_mod2_forca/blob/main/game_da_forca.py>
+baseDeDados <https://github.com/BrunaFPereira/projeto_mod2_forca/blob/main/baseDeDados.py>
+
+
 
