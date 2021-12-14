@@ -1,14 +1,50 @@
 import baseDeDados
+import random
+
+def random_choice(words_base, number_of_players):
+  random.seed(8)
+  words_list = []
+  numeros = random.getstate()
+  a = random.sample(range(len(words_base)), k = number_of_players)
+  for x in a:
+    words_list.append(words_base[x])
+  return words_list
 
 
+
+def base_choice(number_of_players):
+  # base choice
+  base_programacao = ['python', 'html', 'javascript', 'fullstack', 'css']
+
+  base_bibliotecas = ['pandas', 'matplotlib', 'numpy', 'arrow', 'datetime', 'scikitlearning', 'arrow', 'pytil']
+
+  base_inteligencia_emocional = ['autoconhecimento', 'autocontrole', 'empatia', 'automotivação', 'empatia', 'relacionamento interpessoal']
+
+  base = input('Escolha o tema\n1 - Programacao\n2 - Bibliotecas\n3 - Inteligencia Emocional\n')
+  # word choice
+
+  if int(base) == 1:
+    return random_choice(base_programacao, number_of_players)
+
+  elif int(base)==2:
+    return random_choice(base_bibliotecas, number_of_players)
+
+  else:
+    return random_choice(base_inteligencia_emocional, number_of_players)
+  
+# multiplayer
 def multiplayer():
   player_dict = {}
 
   players_quantity_str = input('Type how many players will be playing: ')
-  chances = int(players_quantity_str)
-
-  for player in range(1, chances+1):
-    player_dict.update({'player_'+str(player):'5'})
+  players_quantity_int = int(players_quantity_str)
+  word = base_choice(players_quantity_int)
+  
+  for player, word in enumerate(word):
+    name = input(f'Type the name of the player_{player+1}: ')
+    player_dict.update({'player_'+str(player+1):{'name':name,
+                        'error':0,
+                        'word':word}})
   return player_dict
 
 print(multiplayer())
