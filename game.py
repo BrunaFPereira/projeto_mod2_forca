@@ -1,3 +1,5 @@
+import random
+
 class Player:
   guess = []
   error = 0

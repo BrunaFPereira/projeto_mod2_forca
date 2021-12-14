@@ -1,7 +1,21 @@
 import baseDeDados
 import random
-import aux
-        
+import game
+from game import *
+
+def exibirRegras():
+    print('\033[1;31;47m=\033[m' *15)    
+    print('\033[1;31mREGRAS DO JOGO: \033[m')
+    print('\033[1;31;47m=\033[m' *15)
+    print('\033[0;31mregra nº1\033[m - Vocês terão que adivinhar letra por letra;')
+    print('\033[0;31mregra nº2\033[m - São 5 tentativas por turno;')
+    print('\033[0;31mregra nº3\033[m - Errou passa para o próximo jogador;')
+    print('\033[0;31mregra nº4\033[m - Limite de acertos é do tamanho da palavra;')
+    print('\033[0;31mregra nº5\033[m - O limite de jogadores serão de 3 players;') 
+    print('\033[0;31mregra nº6\033[m - O jogo finalizará quando o primeiro jogador acertar uma palavra ou ao errar 5x.')
+
+
+
 def jogar():
     print('=====' *10)
     print('================= JOGO DA FORCA ==================')
@@ -13,7 +27,10 @@ def jogar():
     multi_enforcou = False
     acertou = False
 
-
+    regras = input('Quer ver as regras? ')
+    if "sim" in regras:
+      exibirRegras() 
+      
     while(not multi_enforcou and not acertou):
       if player_index in losers_list:
         player_index+=1
