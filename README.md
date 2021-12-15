@@ -2,10 +2,10 @@
 
 
 ## Participantes
--  Tatiany  
-- Bruna 
+-  Pedro Andre  
+- Bruna Ferrreira 
+- Tatiany castelhano
 - Henrique 
-- Pedro
 
 
 ### APRESENTAÇÃO DO JOGO DA FORCA 
