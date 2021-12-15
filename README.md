@@ -2,8 +2,8 @@
 
 
 ## Participantes
--  Pedro Andre  
-- Bruna Ferrreira 
+- Pedro Andre  
+- Bruna Pereira 
 - Tatiany castelhano
 - Henrique 
 
